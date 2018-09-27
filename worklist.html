@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>设记</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile-index.css">
+    <link rel="stylesheet" type="text/css" href="css/worklist.css">
+    <style type="text/css">
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+        margin: 0;
+        position: relative;
+        background-color: white;
+    }
+
+    #all {
+        background: url('images/worklist/bg.jpg') no-repeat;
+        background-size: 100% 100%;
+        width: 10.0rem;
+        height: 11.907rem;
+        padding-top: 1.9rem
+    }
+
+    .navs {
+        padding: .5rem 0;
+        margin: 0 0.5rem;
+        border-bottom: 1px solid #252525;
+    }
+
+    .navs p {
+        font-size: 0.48rem;
+        color: black;
+        margin: 0;
+        font-weight: bold;
+        position: relative;
+        padding-left: .8rem
+    }
+
+    .navs p .enName {
+        font-size: .4rem;
+        font-weight: normal;
+    }
+
+    .navs p .arrows {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: -0.1rem;
+        font-weight: normal;
+        font-size: .8rem;
+    }
+
+    .worklist {
+        overflow: hidden;
+        max-height: 0;
+        transition: all .5s;
+        -webkit-transition: all .5s
+    }
+
+    .rotate {
+        transition: all .5s;
+        -webkit-transition: all .5s transform:rotate(90deg);
+        -ms-transform: rotate(90deg);
+        /* Internet Explorer */
+        -moz-transform: rotate(90deg);
+        /* Firefox */
+        -webkit-transform: rotate(90deg);
+        /* Safari 和 Chrome */
+        -o-transform: rotate(90deg);
+        /* Opera */
+    }
+
+    .worklist a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 0.35rem;
+        padding: 0 0rem .3rem .3rem;
+        width: 100%
+    }
+
+    a:link {
+        color: rgb(107, 107, 107);
+    }
+
+    a:visited {
+        color: rgb(193, 193, 193);
+    }
+
+    .worklist a:first-child {
+        padding-top: .5rem
+    }
+
+    .worklist a::before {
+        content: '';
+        display: inline-block;
+        width: 0.2rem;
+        height: .2rem;
+        border-radius: .2rem;
+        background-color: rgb(107, 107, 107);
+        margin-right: .2rem
+    }
+    a:visited::before{
+        background-color: rgb(193, 193, 193);
+    }
+    .worklist a span {
+        display: inline-block;
+        transform: scale(.7);
+        -ms-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -o-transform: scale(.7);
+        width: 130%;
+        margin-left: -15%;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+        <div class="navs">
+            <p class="showList"> <span class="arrows">></span> 导视系统 <span class="enName">&nbsp;&nbsp;/&nbsp;&nbsp;Signage System</span></p>
+            <div class="worklist">
+                <a href="index.html">邗江区西区新城高级中学导视系统<br><span>New  City  Of Western District high School  Guide System</span></a>
+                <a href="index.html">浙江绍兴市杨江大道村入口标志牌<br><span>Shaoxing City, Zhejiang Yangjiang Avenue Village entrance signs</span></a>
+                <a href="index.html">广东梅州东城汇商业导视系统<br><span>Meizhou Dongcheng Department of Commercial Guide System</span></a>
+                <a href="index.html">苏州星湖国际广场导视系统<br><span>Suzhou Star Lake International Plaza Guidance System</span></a>
+                <a href="index.html">苏州望亭美丽乡村导视系统<br><span>Suzhou Wangting Beautiful Village Guide System</span></a>
+            </div>
+        </div>
+        <div class="navs">
+            <p class="showList"> <span class="arrows">></span> 城市家具 <span class="enName">&nbsp;&nbsp;/&nbsp;&nbsp;Urban Furniture</span></p>
+            <div class="worklist">
+                <a href="about.html">苏州相城高新技术产业开发区形象提升<br><span>Xiangcheng High-tech Industry Development Zone to Enhance the image</span></a>
+                <a href="about.html">苏州高铁新城市政湖<br><span>Suzhou High Speed Rail New City Lake</span></a>
+            </div>
+        </div>
+        <div class="navs">
+            <p class="showList"> <span class="arrows">></span> 户外艺术品 <span class="enName">&nbsp;&nbsp;/&nbsp;&nbsp;Outedoor Art</span></p>
+            <div class="worklist">
+                <a href="/about.html">苏州城际路艺术品雕塑 <br><span>Suzhou inter-city Road Art Sculpture</span></a>
+                <a href="/about.html">苏州市文正小学《文正魔方》<br><span>Suzhou Wen Zheng primary school "Wen Zheng magic cube"</span></a>
+                <a href="/about.html">苏州相城生物科技园入口艺术装置<br><span>Suzhou Xiangcheng Biotechnology Park Entrance Art Installation</span></a>
+                <a href="/about.html">苏州相城高新技术产业开发区 LED 显示屏<br><span>Suzhou Xiangcheng High-tech Industrial Development Zone LED Display</span></a>
+                <a href="/about.html">浙江树人大学树人广场雕塑<br><span>Zhejiang Shuren Shuren Square Sculpture</span></a>
+                <a href="/about.html">浙江绍兴柯桥区西入口雕塑<br><span>Zhejiang Shaoxing Keqiao West Entrance Sculpture</span></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/flexible.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+$(".showList").click(function() {
+    $(".showList").css('color', 'black');
+    $(this).css('color', 'rgb(14,181,199)');
+    $(".arrows").removeClass("rotate");
+    $(this).find(".arrows").addClass("rotate")
+    $(".worklist").css('max-height', '0px');
+    var s = 0;
+    var aL = $(this).next().find('a').length;
+    s = aL * 50 + 100 + 'px';
+    $(this).next().css('max-height', s);
+})
+</script>
+
+</html>
