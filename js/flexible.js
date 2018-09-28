@@ -116,3 +116,15 @@
     }
 
 })(window, window['lib'] || (window['lib'] = {}));
+
+function getTop() {
+// 点击icon之后自动返回顶部的函数
+      var timer = setInterval(() => {
+        var top = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+        var speed = Math.ceil(top / 5)
+         document.body.scrollTop   = top - speed
+        if (top === 0) {
+          clearInterval(timer)
+        }
+      }, 20)
+}

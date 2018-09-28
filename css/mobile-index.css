@@ -139,3 +139,21 @@ li{
 
 /* 实现文本两端对齐效果 */
 .taj {text-align:justify;}
+
+
+.page-component-up {
+    width: 100%;
+    height: 1.066667rem;
+    cursor: pointer;
+    text-align: center;
+    z-index: 999;
+    color: #333;
+    font-size: .373333rem;
+    line-height: 1.066667rem;
+    background-color: #ececec
+}
+.page-component-up img {
+    width: .266667rem;
+    height: .16rem;
+    margin-bottom: .066667rem;
+}
